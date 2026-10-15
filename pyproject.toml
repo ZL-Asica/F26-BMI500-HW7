@@ -1,0 +1,20 @@
+[project]
+name = "bmi500-hw7"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Elara Liu", email = "40444637+ZL-Asica@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "notebook>=7.6.3",
+    "numpy>=2.4.6",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.7.0",
+    "ruff>=0.17.0",
+]
